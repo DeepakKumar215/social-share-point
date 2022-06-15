@@ -63,7 +63,7 @@ class Posts extends Component {
                         const posterId = post.postedBy ? post.postedBy._id : "";
                         const posterName = post.postedBy ? post.postedBy.name : " Unknown";
                         return (
-                            <div key={i} className="card col-md-12 mb-5" style={{ padding: "0" }} >
+                            <div key={i} className="card col-xl-8 col-md-12 mb-5 mx-auto" style={{ padding: "0" }} >
                                 <div className="card-header">
                                     <img
                                         className="mb-1 mr-2"
@@ -90,7 +90,7 @@ class Posts extends Component {
                                         src={`${process.env.REACT_APP_API_URL}/post/photo/${post._id}`}
                                         alt={post.title}
                                         style={{
-                                            maxHeight: "700px",
+                                            maxHeight: "300px",
                                             backgroundSize: "cover",
                                             backgroundRepeat: 'no-repeat',
                                             backgroundPosition: "50% 50%"

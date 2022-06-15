@@ -7,11 +7,11 @@ const Home = () => (
         <div className="container">
             <Posts />
         </div>
-        <footer className="page-footer font-small" style={{ background: "black" }}>
+        <footer className="page-footer font-small" style={{ background: "black", position: 'fixed', left: "0", bottom: "0", width: "100%" }}>
             <div className="container">
                 <p className="text-center" style={{ color: "#fff", fontSize: "large", margin: "0", padding: "20px" }}>
-                    Made with by
-                        <a href="https://github.com/shahshubh" style={{ color: "white" }} > Shubh Shah </a>
+                    Made by
+                        <a href="https://github.com/shahshubh" style={{ color: "white" }} > Our Team </a>
                 </p>
             </div>
         </footer>
